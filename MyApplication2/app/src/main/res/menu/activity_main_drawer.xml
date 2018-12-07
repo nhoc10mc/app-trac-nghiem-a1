@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bai_hoc"
+            android:icon="@drawable/ic_ondemand_video_black_24dp"
+            android:title="Video" />
+        <item
+            android:id="@+id/kt"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Trac ngiem A1" />
+        <item
+            android:id="@+id/ktoto"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Trac nghiem oto" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Tim kiem" />
+        <item
+            android:id="@+id/bienbao"
+            android:icon="@drawable/ic_do_not_disturb_on_black_24dp"
+            android:title="Bien bao" />
+        <item
+            android:id="@+id/kq"
+            android:icon="@drawable/ic_bookmark_border_black_24dp"
+            android:title="Ket qua" />
+
+    </group>
+
+
+
+</menu>
